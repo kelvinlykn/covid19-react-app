@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header{
+  background-color: #282c34;
+}
+
+header a{
+  align-items: center;
+  justify-content: center;
+  color: #f2f2f2;
+  height: 100px;
+  font-size: 50px;
+  display: flex;
+
+}
+
+header b{
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 60%;
+  font-size: 10px;
+  display: flex;
+}
+
+header c{
+  align-items: left;
+  justify-content: left;
+  color: #f2f2f2;
+  height: 20px;
+  font-size: 10px;
+  display: flex;
+}
+
+input {
+  display:block;
+  width: 50%;
+  margin-bottom:15px;
+  padding:10px;
+  background:white;
+  border-bottom: 1px solid #ffffff !important;
+  border:0;
+  color:rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+
+#container {
+  padding-top:15px;
+  padding-left:10px;
+  padding-right:30px;
+  padding-bottom:40px;
+}
+
+table {
+  border:1px solid #000; 
+  font-family: 微軟正黑體; 
+  font-size:16px; 
+  border:1px solid #000;
+  text-align:center;
+  border-collapse:collapse;
+  margin: auto;
+  width: 100%;
+}
+th {
+  background-color:yellow;
+  padding:10px;
+  border:1px solid #000;
+}
+td {
+  border:1px solid #000;
+  padding:5px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+#fullscreen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
